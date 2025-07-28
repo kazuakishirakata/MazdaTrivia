@@ -1,0 +1,19 @@
+# Don't include compiled files
+bin/
+obj/
+
+# Don't include user-specific settings
+*.user
+*.suo
+
+# Ignore VS temp folders
+.vs/
+.vscode/
+
+# Ignore database temp files (if using SQLite)
+*.db-shm
+*.db-wal
+
+# Ignore logs or cache
+*.log
+*.cache
